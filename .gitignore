@@ -1,0 +1,13 @@
+# Whitelist: ignore everything, then re-include only what should be tracked
+/*
+
+!/.gitignore
+!/README.md
+!/src/
+!/data/
+
+# Junk that may appear inside tracked directories
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
